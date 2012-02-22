@@ -1,7 +1,6 @@
 #!/usr/bin/python
 # NITO 1.0
 # nito.py
-# Copyright (c) 2010 - 2012 Francis Tseng.
 
 import Image
 import codecs
@@ -58,13 +57,10 @@ def text2dec(key):
 		dec = int(hexstr,16) #converts hexadecimal string into decimal
 	elif len(hexstr)>16: #hexstrings over length of 16 will become long type
 		dec = int(hexstr,16)*0.000001
-	if type(dec) is long: #if type is long, throw error
-		raise ValueError, "Text input is too long!"
-	else:
-		decstr = str(dec) #converts dec to string
-		m = re.findall(r'\d+',decstr) #extracts only numbers
-		mdecstr = ''.join(m) #concats numbers to single string
-		return mdecstr
+	decstr = str(dec) #converts dec to string
+	m = re.findall(r'\d+',decstr) #extracts only numbers
+	mdecstr = ''.join(m) #concats numbers to single string
+	return mdecstr
 
 def coordcalc(string):
 	'''
