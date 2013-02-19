@@ -1,10 +1,10 @@
-NITO, derived from “incogNITO” and from “匿透” (nì tòu; “conceal” and “leak out”), is a stenographic tool for encoding and decoding sensitive information into images that can be publicly traded, which can be unlocked only using context-specific keys that rely on the recipient’s own knowledge.
+NITO, derived from “incogNITO” and from “匿透” (nì tòu; “conceal” and “leak out”), is a steganographic tool for encoding and decoding sensitive information into images that can be publicly traded, which can be unlocked only using context-specific keys that rely on the recipient’s own knowledge.
 
 The OSX application (version 1.0) can be [downloaded here](http://yadonchow.com/files/nito-1.0.zip).
 
 ###Why this way?
 
-A principle idea behind stenography is that obvious hiding places are in reality the least obvious ones. If you’ve ever played hide-and-go-seek, and tried hiding in the most obvious hiding places, you’ll often find that those are the last places the seeker will look. People have the least suspicions about “plain-sight” because they never expect anything to be hidden there.
+A principle idea behind steganography is that obvious hiding places are in reality the least obvious ones. If you’ve ever played hide-and-go-seek, and tried hiding in the most obvious hiding places, you’ll often find that those are the last places the seeker will look. People have the least suspicions about “plain-sight” because they never expect anything to be hidden there.
 
 This usage of subtly coding messages into images means that there is no need for the formation of secret networks or the obvious usage of circumvention techniques that would raise the suspicion of anyone who happened upon them. These encoded images can be traded openly on public message boards without appearing threatening.
 
